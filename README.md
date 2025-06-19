@@ -1,6 +1,6 @@
 # TecnoShop Store
 
-**TecnoShop Store** é um site de e-commerce focado em produtos da Apple, como Apple Watch, Vision Pro e iPhone.  
+**TecnoShop Store** é um site de e-commerce focado em produtos da Apple, como Apple Watch, Vision Pro e Air Pods.  
 O projeto está em fase inicial e faz parte do meu portfólio de estudos em desenvolvimento web.
 
 ---
