@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Portifolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">TecnoShop Store</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos </li>
+                <li>Contatos</li>
+
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            <div class="item active">
+                <div>
+                    <img src="./img/air-pods.png" alt="Air Pods Max">
+                </div>
+                <div class="content">
+                    <p class=product-tag>Novo Lançamento</p>
+                    <p class="product-name">Air Pods Max</p>
+                    <p class="description">Com design mais fino, tela superbrilhante e chip S10 com IA, o Series 10
+                        oferece monitoramento avançado de saúde (ECG, oxigênio no sangue, sono, apneia) e novos gestos.
+                        Disponível em 42 e 46 mm com até 36h de bateria no modo econômico. Estilo e tecnologia no seu
+                        pulso.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div>
+                    <img src="./img/vision-pro.png" alt="Vision Pro">
+                </div>
+                <div class="content">
+                    <p class=product-tag>Alta Performance</p>
+                    <p class="product-name">Vision Pro</p>
+                    <p class="description">Óculos de realidade mista com tela 3D imersiva, controle por olhos, mãos e
+                        voz. Mistura o digital com o real. O futuro da computação pessoal.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div>
+                    <img src="./img/apple-watch.png" alt="Apple Watch Series 10" class="product-img-img apple-watch"> 
+                </div>
+                <div class="content">
+                    <p class=product-tag>Alta Tecnologia</p>
+                    <p class="product-name">Apple Watch Series 10</p>
+                    <p class="description"> Com design mais fino, tela superbrilhante e chip S10 com IA, o Series 10 oferece monitoramento avançado de saúde (ECG, oxigênio no sangue, sono, apneia) e novos gestos. Estilo e tecnologia no seu pulso.
+    </p>
+    <button class="btn">Saiba Mais</button>
+</p>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button class="arrows-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                    class="bi bi-arrow-left-square" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+            </button>
+            <button class="arrows-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                    class="bi bi-arrow-right-square" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                </svg>
+            </button>
+        </div>
+        <div class=" indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
