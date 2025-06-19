@@ -21,7 +21,26 @@ Projeto em desenvolvimento.
 - Interações em JavaScript
 - Responsividade geral
 
+
 ---
 
-## Estrutura de Arquivos
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript 
+- Animações com CSS
+
+---
+
+## Sobre
+
+Este projeto é parte do meu processo de aprendizado.  
+Pretendo evoluir o site aos poucos, adicionando novas páginas, melhorias visuais e funcionalidades reais de e-commerce.
+
+---
+
+## Autor
+
+Pedro Pazianoto — Desenvolvedor em formação.
 
